@@ -1,6 +1,7 @@
 # CyberArk SCA & SIA Policy Retriever — AWS Secrets Manager (Python)
 
-Built a script to authenticate with CyberArk's platform API using OAuth 2.0 client credentials, generate a bearer token, and retrieve all Secure Cloud Access (SCA) and Secure Infrastructure Access (SIA) policies. All API credentials are stored in and retrieved from AWS Secrets Manager — no plaintext credentials, no runtime prompts.
+Created a script to authenticate with CyberArk's platform API using OAuth 2.0 client credentials, generate a bearer token, and retrieve all Secure Cloud Access (SCA) and Secure Infrastructure Access (SIA) policies. All API credentials are stored in and retrieved from AWS Secrets Manager — no plaintext credentials, no runtime prompts. 
+Note: This enables full automation via launchd (macOS), Task Scheduler (Windows), or cron (Linux).
 
 ## Overview
 
